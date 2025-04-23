@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Detección de Postura</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Detector de Posturas</h1>
+    <video id="video" autoplay playsinline></video>
+    <div id="output">Cargando modelo...</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection/dist/movenet.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
